@@ -1,0 +1,62 @@
+.video-txt{
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 30px;
+} 
+.video-txt > h6 {  
+    display: flex;
+}
+.channel{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.song{
+    font-size: 16px;
+}
+
+.followbtn {
+  margin-left: 5px;
+  appearance: button;
+  background-color: #0f2cce;
+  border-radius: 3px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 26px;
+  height: 24px;
+  padding: 0px 6px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  align-items: center;
+}
+
+.followbtn:disabled {
+  cursor: default;
+}
+
+.footerbtn{
+    position: absolute;
+    bottom: 2.5%;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbox{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+
+.video-cards{
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+video{
+    height: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}

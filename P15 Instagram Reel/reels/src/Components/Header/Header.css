@@ -1,0 +1,14 @@
+.video-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-size: 28px;
+}
+
+/* .video-header > * no means video-header ni andar na badha div */
+.video-header > * {
+    padding: 10px;
+}

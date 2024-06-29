@@ -1,0 +1,46 @@
+.slick-slide {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Transition for transform and opacity */
+    display: flex !important;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 0 20px; /* Add padding to create space between images */
+  }
+  
+  .carousel-container {
+    width: 40%; /* Adjust width as needed for smaller size */
+    margin: auto; /* Center the carousel */
+  }
+  
+  .image-container {
+    width: 100%; /* Make sure images take full width of their container */
+    position: relative; /* Ensure relative positioning for pseudo-element */
+  }
+  
+  .slick-slide img {
+    width: 100%; /* Ensure images take full width of their container */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Transition for transform and opacity */
+    display: block; /* Ensure images are block elements */
+    margin: auto; /* Center images within their container */
+    border-radius: 10px;
+    filter: blur(0.3px); /* Apply initial blur effect */
+    opacity: 0.7; /* Initial opacity for fade effect */
+  }
+  
+  /* Apply larger scale to the center slide */
+  .slick-center img {
+    filter: none; /* Remove blur effect */
+    border-radius: 10px;
+    height: 170px; /* Fixed height for the center image */
+    width: 180px;
+    opacity: 1; /* Full opacity for the center image */
+  }
+  
+  .slick-list {
+    margin: 0 -20px; /* Adjust for slick-slide padding */
+  }
+  
+  .slick-track {
+    display: flex !important;
+    align-items: center;
+  }
+  

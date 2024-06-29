@@ -1,0 +1,54 @@
+.imagecont{
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}  
+
+.grid{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    /* grid na 3 bhag pdse jema 1fr 200px no hse. */
+    grid-gap: 20px;
+}
+
+@media screen and (max-width:660px)  {
+  .grid{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+}
+
+@media screen and (max-width:440px)  {
+  .grid{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+}
+
+.grid div{
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  /* overflow hidden thi div ni bahar img nahi jay */
+}
+
+.grid div img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s;
+}
+/* jyare div ne hover kriye tyare img... */
+.grid div:hover img{
+  transform: scale(1.2);
+  /* scale always 0 thi 1 ma hoy to minimize thay and 1thi upr  hoy to zoom thay  */
+  transition: all 0.3s;
+}
+
+
+

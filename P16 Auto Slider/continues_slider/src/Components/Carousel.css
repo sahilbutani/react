@@ -1,0 +1,36 @@
+.carousel-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .image-container {
+    width: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Add transition for smooth effect */
+ /* Initial transparent border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+    box-shadow: 0 8px 16px rgb(158, 154, 154); /* Larger box shadow on hover */
+  }
+  
+  .slick-slide {
+    padding: 0 10px;
+    /* padding between images */
+  }
+  
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  .slick-track {
+    display: flex !important;
+    align-items: center;
+  }
+  

@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "name": "Alice Johnson",
+        "profession": "Software Engineer",
+        "skills": ["Python", "JavaScript", "React", "Node.js"],
+        "age": 29,
+        "image": "https://imgs.search.brave.com/h-tV4gVjASgR9kMs5njrhG7_DlhYhdjgQPj9MzZyehw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9o/YW5kc29tZS1jYXVj/YXNpYW4tbWFuLXdl/YXJpbmctY2FzdWFs/LWNsb3RoZXMtZ2xh/c3Nlcy13aXRoLWhh/cHB5LWNvb2wtc21p/bGUtZmFjZS1sdWNr/eS1wZXJzb25fODM5/ODMzLTEyNzcyLmpw/Zz9zaXplPTYyNiZl/eHQ9anBn"
+    },
+    {
+        "id": "2",
+        "name": "Bob Smith",
+        "profession": "Graphic Designer",
+        "skills": ["Photoshop", "Illustrator", "InDesign", "Sketch"],
+        "age": 35,
+        "image": "https://imgs.search.brave.com/eBQndt052LAMVgGGACW3KEuCq71r97mAjPRgZYanPxY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjI1NTYxODk2Mzkt/YjE1MGVkOWM0MzMw/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4T0h4OGNH/VnljMjl1WVh4bGJu/d3dmSHd3Zkh4OE1B/PT0.jpeg"
+    },
+    {
+        "id": "3",
+        "name": "Charlie Brown",
+        "profession": "Data Scientist",
+        "skills": ["Python", "R", "SQL", "Machine Learning"],
+        "age": 32,
+        "image": "https://example.com/images/charlie.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Diana Evans",
+        "profession": "Product Manager",
+        "skills": ["Project Management", "Agile", "Scrum", "JIRA"],
+        "age": 41,
+        "image": "https://example.com/images/diana.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Ethan Wright",
+        "profession": "Mechanical Engineer",
+        "skills": ["AutoCAD", "SolidWorks", "MATLAB", "ANSYS"],
+        "age": 27,
+        "image": "https://example.com/images/ethan.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Fiona Harris",
+        "profession": "Marketing Specialist",
+        "skills": ["SEO", "Content Marketing", "Google Analytics", "Social Media"],
+        "age": 30,
+        "image": "https://example.com/images/fiona.jpg"
+    },
+    {
+        "id": "7",
+        "name": "George Baker",
+        "profession": "Civil Engineer",
+        "skills": ["Structural Analysis", "AutoCAD", "Project Management", "Surveying"],
+        "age": 45,
+        "image": "https://example.com/images/george.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Hannah Lee",
+        "profession": "UX/UI Designer",
+        "skills": ["Figma", "Sketch", "Adobe XD", "User Research"],
+        "age": 28,
+        "image": "https://example.com/images/hannah.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Ian Martinez",
+        "profession": "Network Engineer",
+        "skills": ["Cisco", "Network Security", "Linux", "Wireshark"],
+        "age": 34,
+        "image": "https://example.com/images/ian.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Julia Clark",
+        "profession": "Financial Analyst",
+        "skills": ["Excel", "Financial Modeling", "Data Analysis", "SQL"],
+        "age": 26,
+        "image": "https://example.com/images/julia.jpg"
+    }
+]
