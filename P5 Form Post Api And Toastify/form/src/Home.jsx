@@ -26,6 +26,7 @@ const Home = () => {
 
   const handleChange = (e) => {
     if (e.target.name === "salary") {
+      //e.target.name e name="salary" fetch krse ne compare krse.
       if (/^\d*$/.test(e.target.value)) {
         //jo value digit hase to..
         setSalary(e.target.value);
