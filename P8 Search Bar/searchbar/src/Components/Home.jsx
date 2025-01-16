@@ -2,16 +2,16 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const Home = () => {
-  const [res, setRes] = useState([]);
   const [originalVal,setoriginalVal]=useState([]);
   const [search, setSearch] = useState("");
+  const [res, setRes] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://dummyjson.com/products")
       .then((response) => {
+        setoriginalVal(response.data.products); //ni6 na func ma apde setRes ni value change kriye 6iye etle reponse dr vakhte bdlase pn original value badlase nahi etle same another state banavyu.
         setRes(response.data.products);
-        setoriginalVal(response.data.products); //ni6 na func ma apde setRes ni value change kriye 6iye etle same another state banavyu
       })
       .catch(function (error) {
         console.log(error);
