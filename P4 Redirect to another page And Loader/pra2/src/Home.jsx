@@ -45,7 +45,8 @@ useEffect(()=>{
     })}
     
     </nav>
-    <Outlet/>
+            //Home ma jo navne te badhu fix rakhine only home j change thay tevu krva mate Outlet no use thay. ahi krelo nthi pn kri skay.
+           // <Outlet/>
   
    </>
   )
