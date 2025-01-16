@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, email, pass)
     .then((value) =>
-      navigate("/signIn")
+      navigate("/signIn") // Direct signIn Page pr jse.
     );
   };
 
