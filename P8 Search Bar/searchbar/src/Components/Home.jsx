@@ -27,7 +27,7 @@ const Home = () => {
     if (val) {
       result = res.filter((user) => {
         return user.title?.toLowerCase().includes(val) || user.description?.toLowerCase().includes(val);
-      });//result ma title and desciption jo match thse to filter krse.
+      }); //result ma title or desciption jo match thse to filter krse.
     } else {
       result=originalVal //nhitr original home page ni value j rakhse filter nhi thay.
     }
