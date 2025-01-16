@@ -10,7 +10,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Layout />}> //Layout is common compo. for all child compo.
             <Route index element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Services" element={<Services />} />
