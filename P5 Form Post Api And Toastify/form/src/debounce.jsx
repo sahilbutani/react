@@ -16,3 +16,8 @@ const useDebounce = (callback, delay) => {
 };
 
 export default useDebounce;
+
+
+// we use debounce for stopping many time calling API
+// if we write ab1...
+// then deboune wait for we write all the characters "ab12e" for given seconds.
